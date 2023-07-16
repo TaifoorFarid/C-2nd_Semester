@@ -2,10 +2,9 @@
 main()
 {
 	int zero=0, one=0, two=0, three=0, four=0, five=0, six=0, seven=0, eight=0, nine=0, ten=0;
-	int i, dig, num, freez;
+	int i, dig, num;
 	printf("Enter a number: ");
 	scanf("%d", &num);
-	freez = num;
 	
 	for( i = 1; num > 0 ; i++)
 	{
@@ -54,6 +53,4 @@ main()
 	printf("\n8 = %d times", eight);
 	if(nine > 0)
 	printf("\n9 = %d times", nine);
-	if(freez == 0)
-	printf("You have entered 0");
 }
