@@ -13,13 +13,11 @@ main()
 		int col = 0;
 		for(int c = 0 ; c <= lines*2 ; c++)
 		{
-			if(c >= lines - r && c <= lines + r && k){
-				int print = pascal_number(r, col);
-				col++;
-				printf(" %d", print);
+			if(c >= lines - r && c <= lines + r && k) {
+				printf(" %d", pascal_number(r, col++));
 				k = 0;
 			}
-			else{
+			else {
 				printf("  ");
 				k = 1;
 			}
